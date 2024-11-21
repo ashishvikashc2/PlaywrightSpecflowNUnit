@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Runsettings>
+    <RunConfiguration>
+        <TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
+        <MaxCpuCount>3</MaxCpuCount>
+        <ResultDirectory>.\TestReuslts</ResultDirectory>
+        <DisableParallelization>false</DisableParallelization>
+    </RunConfiguration>
+    <NUnit>
+        <NumberOfTestWorkers>3</NumberOfTestWorkers>
+    </NUnit>
+    <DataCollectionRunSettings>
+        <DataCollectors>
+            
+        </DataCollectors>
+    </DataCollectionRunSettings>
+    <TestRunParameters>
+        <Parameter name="PageLoad" value="30" />
+    </TestRunParameters>
+</Runsettings>
